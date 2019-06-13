@@ -103,9 +103,21 @@ Todos se encuentran en éste repositorio de GitBook https://legacy.gitbook.com/@
 
 ## How do you compare versions in a word file?
 
-
-
 ![Comparing versions](img/cambios2.png)
+
+---
+<!-- .slide: data-background="img/Logos_reveal_s.png" -->
+
+## Here is how you see this .docx on Github
+
+![Docx on Github](img/docx_github.png)
+
+---
+<!-- .slide: data-background="img/Logos_reveal_s.png" -->
+
+## Here is how you see this .docx on TextEdit
+
+![Docx on TextEdit](img/docx_in_textedit.png)
 
 ---
 <!-- .slide: data-background="img/Logos_reveal_s.png" -->
@@ -136,6 +148,11 @@ In [this article](https://pushpullfork.com/exploring-musical-data-with-r/) we ha
 ```r
 install.packages("blogdown")
 ```
+
+---
+<!-- .slide: data-background="img/Logos_reveal_s.png" -->
+
+More information in the [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 
 ---
 <!-- .slide: data-background="img/Logos_reveal.png" -->
