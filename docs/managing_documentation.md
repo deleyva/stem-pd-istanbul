@@ -94,6 +94,22 @@ Todos se encuentran en éste repositorio de GitBook https://legacy.gitbook.com/@
 ---
 <!-- .slide: data-background="img/Logos_reveal_s.png" -->
 
+## You can compare versions easily
+
+![Comparing versions](img/cambios2.png)
+
+---
+<!-- .slide: data-background="img/Logos_reveal_s.png" -->
+
+## How do you compare versions in a word file?
+
+
+
+![Comparing versions](img/cambios2.png)
+
+---
+<!-- .slide: data-background="img/Logos_reveal_s.png" -->
+
 ## Examples of reproducible workflows
 
 [Here](https://colab.research.google.com/drive/1MucxxfaLjmqnjYg4-qy8C8piVFzw757I) we can see a reimplementation of the famous visualization of the relationship of life expectancy related to the per capita income of each country using the Gapminder DataSet
