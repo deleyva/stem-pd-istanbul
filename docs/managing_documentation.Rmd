@@ -1,0 +1,58 @@
+---
+title: "Managing Documentation in a world overloaded with information"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: false
+    reveal_plugins: ["notes", "chalkboard"]
+    reveal_options:
+      chalkboard:
+        theme: whiteboard
+        toggleNotesButton: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## CATEDU
+
+(Centro Aragonés de Tecnologías para la Educación - Aragonese Center of Technologies for Education)
+
+[www.catedu.es](www.catedu.es)
+
+## Thanks to [Florian Stampfer](https://www.uibk.ac.at/dingim/team/stampfer/)
+
+## R
+
+[![R Page](r_language_page.png)](https://www.r-project.org/about.html)
+
+## RMarkdown
+
+[![RMarkdown](rmarkdown.png)](https://rmarkdown.rstudio.com/)
+
+## Starting point
+
+Imagine we want to create a report using data from several surveys
+
+![Carpeta de archivos](carpeta_archivos.png)
+
+## Slide with Bullets {data-background=foo.png data-background-size=cover}
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+
+

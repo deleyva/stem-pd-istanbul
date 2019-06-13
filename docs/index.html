@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Managing Documentation in a world overloaded with information</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/solarized.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
+
+### Managing Documentation in a world overloaded with information
+
+> Jesús López de Leyva - CATEDU (Centro Aragonés de Tecnologías para la Educación - Aragonese Center of Technologies for Education)
+
+[www.catedu.es](http://www.catedu.es)
+</script></section><section  data-markdown><script type="text/template">
+## Thanks to [Florian Stampfer](https://www.uibk.ac.at/dingim/team/stampfer/)
+</script></section><section  data-markdown><script type="text/template">
+![Gitbook](img/gitbook.png)
+</script></section><section  data-markdown><script type="text/template">
+```markdown
+## Tutoriales
+
+### ¿Quieres descargártelos?
+
+Todos se encuentran en éste repositorio de GitBook https://legacy.gitbook.com/@catedu. DESCARGABLES EN FORMATO PDF, ePUB, eMobi.. y CON LICENCIA CC puedes usarlos en tus clases respetando la licencia.
+
+![Download courses](img/download.png)
+```
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background-iframe="https://catedu.gitbooks.io/robotica/content/" data-background-interactive -->
+</script></section><section  data-markdown><script type="text/template">
+![Markdown](img/markdown.png)
+</script></section><section  data-markdown><script type="text/template">
+## R and Python
+
+[![R Page](img/r_language_page.png)](https://www.r-project.org/about.html) <!-- .element height="50%" width="50%" -->
+
+[![Python Page](img/python_web.png)](https://www.python.org/) <!-- .element height="50%" width="50%" -->
+</script></section><section  data-markdown><script type="text/template">
+![Free knowledge](img/free_knowledge.jpeg)
+</script></section><section  data-markdown><script type="text/template">
+[![RMarkdown](img/rmarkdown.png)](https://rmarkdown.rstudio.com/)
+</script></section><section  data-markdown><script type="text/template">
+[![tutorials](img/tutorial_rmarkdown.png)](https://rmarkdown.rstudio.com/)
+</script></section><section  data-markdown><script type="text/template">
+### [Interesting examples](https://gallery.shinyapps.io/cran-gauge/)
+</script></section><section  data-markdown><script type="text/template">
+## The good part of doing it with traditional software
+* Easy and visual
+* You do not need to learn programming.
+</script></section><section  data-markdown><script type="text/template">
+## The bad part of doing it with traditional software 
+* It is not a reproducible workflow.
+* It is much more difficult to have the data updated.
+* Bad integration with version control.
+* Lack of versatility
+* Diversity of software that can lead to incompatibilities.
+* You do not learn programming, which would help you to understand the technology as an active citizen, not as a mere consumer.
+</script></section><section  data-markdown><script type="text/template">
+## Examples of reproducible workflows
+
+[Here](https://colab.research.google.com/drive/1MucxxfaLjmqnjYg4-qy8C8piVFzw757I) we can see a reimplementation of the famous visualization of the relationship of life expectancy related to the per capita income of each country using the Gapminder DataSet
+</script></section><section  data-markdown><script type="text/template">
+## RMarkdown and WikiData
+
+What if we used [wiki-data](https://query.wikidata.org/) to get some interesting data, such as data about More populated cities with a woman as a major.
+</script></section><section  data-markdown><script type="text/template">
+## RMarkdown and Music
+
+In [this article](https://pushpullfork.com/exploring-musical-data-with-r/) we have an R script and a dataset that we can download. If we run it, we can see the output of the script. What if we wanted to make it presentable to an audience? Let's start a document in RMarkdown.
+</script></section><section  data-markdown><script type="text/template">
+## Writing blogs
+
+```r
+install.packages("blogdown")
+```
+</script></section><section  data-markdown><script type="text/template">
+# Thank you
+</script></section><section  data-markdown><script type="text/template">
+<img class="plain"  src="img/Educacion_color.gif"/>
+<img class="plain"  src="img/catedulogo.png"/>
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {"transition":"fade"};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+          Reveal.initialize(options);
+        </script>
+    </body>
+</html>
