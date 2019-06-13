@@ -19,7 +19,7 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background-iframe="https://moodle.catedu.es" data-background-interactive -->
+<!-- .slide: data-background="img/aularagon.png" -->
 
 ---
 <!-- .slide: data-background="img/Logos_reveal_s.png" -->
